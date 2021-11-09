@@ -8,3 +8,6 @@ mini projeto criado para praticar eventos no JavaScript
 - [HTML5](https://www.w3schools.com/html/)
 - [CSS3](https://www.w3schools.com/css/)
 - [JS](https://www.w3schools.com/js/)
+
+## Demo
+[Clique aqui](https://mateusmaranhao.github.io/contador-caractere/) para ver o projeto funcionando.
