@@ -1,6 +1,12 @@
+:root {
+  --main-bg:#232323;
+  --neutral: #f2f2f2;
+  --contrast: #00FF9F;
+}
+
 body {
-  background-color: #232323;
-  color: #f2f2f2;
+  background-color: var(--main-bg);
+  color: var(--neutral);
   font-family: 'Courier New', Courier, monospace;
 }
 main {
@@ -12,22 +18,22 @@ ul {
 }
 textarea {
   background: transparent;
-  color: #f2f2f2;
+  color: var(--neutral);
   outline: none;
-  border: 2px solid #f2f2f2;
+  border: 2px solid var(--neutral);
 
   padding: 10px;
 }
 .onFocus {
-  border-color: #00FF9F;
+  border-color: var(--contrast);
 }
 
+/* ====== Responsividade ====== */
 @media only screen and (max-width: 1200px) and (min-width: 767px) {
   textarea {
     width: 500px;
   }
 }
-
 @media only screen and (max-width: 768px) and (min-width: 569px) {
   textarea {
     width: 450px;
