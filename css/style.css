@@ -17,9 +17,24 @@ textarea {
   border: 2px solid #f2f2f2;
 
   padding: 10px;
-  font-size: 1rem;
 }
-
 .onFocus {
   border-color: #00FF9F;
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 767px) {
+  textarea {
+    width: 500px;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 569px) {
+  textarea {
+    width: 450px;
+  }
+}
+@media only screen and (max-width: 570px) {
+  textarea {
+    width: 150px;
+  }
 }
