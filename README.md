@@ -10,4 +10,4 @@ mini projeto criado para praticar eventos no JavaScript
 - [JS](https://www.w3schools.com/js/)
 
 ## 🔥 Demo
-[Clique aqui](https://mateusmaranhao.github.io/contador-caractere/) para ver o projeto funcionando.
+[Clique aqui](https://mateusmaranhao.github.io/contador-caracteres/) para ver o projeto funcionando.
